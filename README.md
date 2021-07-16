@@ -1,3 +1,16 @@
+## This is a billing application which can be used in any business for inventory management and as an accounting app.
+
+# Features:
+
+> *	Built using front end technologies : React and Redux, CSS and Material UI.
+> *	Application state is maintained in Redux and used localstorage to save some data.
+> *	Created reusable components and are connected to the application using Connect method provided by React Redux package.
+> *	Connected asynchronous action generated using Redux Middleware called Thunk.
+
+ **Packages Used**: React, Axios, React-Redux, Redux-Thunk, React-Router-DOM, React & Material UI icons, Google Charts, React-Moment, Validators, Sweetalert, JsPDF/Autotable.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
