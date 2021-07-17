@@ -40,6 +40,7 @@ const Login = (props) => {
           // console.log(result.token);
           localStorage.setItem('loginToken', JSON.stringify(result.token));
           props.history.push('/dashboard');
+           window.location.reload();
           handleToggleUser();
         } else {
           Swal.fire({
